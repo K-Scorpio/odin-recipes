@@ -59,15 +59,24 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 5px;
   position: relative; /* Add relative positioning to create a stacking context for the child elements of the container*/
+  cursor: pointer;
+}
+
+.recipe-container:hover {
+  filter: brightness(
+    70%
+  ); /* Adjust the brightness percentage for the shadow effect */
+  transition: filter 0.3s ease; /* Add a smooth transition for the effect */
 }
 
 .recipe-card {
   width: 300px;
   height: 400px;
   background-color: #444;
-  margin: 10px;
   overflow: hidden; /* Ensure the image does not overflow the card */
+  margin: 10px;
 }
 
 .recipe-card img {
