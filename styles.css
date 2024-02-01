@@ -38,13 +38,17 @@ header {
 #main-section h1 {
   color: whitesmoke;
   text-align: center;
-  padding-top: 10px;
+  padding-top: 40px;
   font-size: 40px;
 }
 
 #main-section span {
   font-family: "Tangerine", cursive;
   font-size: 60px;
+}
+
+a {
+  text-decoration: none;
 }
 
 #card-container {
@@ -100,6 +104,7 @@ h2 {
 
 footer {
   height: 90px;
+  display: flex;
 }
 
 /* img {
