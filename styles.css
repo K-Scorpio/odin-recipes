@@ -28,7 +28,7 @@ header {
 
 #main-section {
   min-height: calc(
-    100vh - 180px
+    100vh - 240px
   ); /* Account for the combined height of header and footer */
   background-color: #333;
   display: flex;
@@ -103,9 +103,40 @@ h2 {
 }
 
 footer {
-  height: 90px;
-  display: flex;
+  height: 150px;
+  text-align: center;
 }
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 0;
+}
+
+.footer-links li {
+  display: inline-block;
+}
+
+.footer-links a {
+  display: block;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: aqua;
+}
+
+.footer-title {
+  color: whitesmoke;
+}
+
+/* .recipe-type {
+  background-color: aqua;
+  margin: 5px 10px 5px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+} */
 
 /* img {
   display: block;
