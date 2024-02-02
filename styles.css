@@ -109,7 +109,7 @@ footer {
 .footer-links {
   list-style: none;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   padding: 10px 0;
 }
 
@@ -127,6 +127,7 @@ footer {
   border-radius: 50%;
   background-color: aqua;
   overflow: hidden;
+  margin: 0 35px;
 }
 
 .footer-links img {
@@ -144,6 +145,8 @@ footer {
 
 .footer-title {
   color: whitesmoke;
+  font-weight: bold;
+  margin-top: 5px;
 }
 
 /* .recipe-type {
